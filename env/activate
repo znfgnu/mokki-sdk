@@ -1,5 +1,5 @@
 export OLDPATH=$PATH
-export PATH=/home/konrad/Workspace/arm-side-loaded-program/env/bin:/home/konrad/Ac6/SystemWorkbench/plugins/fr.ac6.mcu.externaltools.arm-none.linux64_1.15.0.201708311556/tools/compiler/bin:$PATH
+export PATH=/home/konrad/mokki/mokki-sdk/env/bin:/home/konrad/Ac6/SystemWorkbench/plugins/fr.ac6.mcu.externaltools.arm-none.linux64_1.15.0.201708311556/tools/compiler/bin:$PATH
 
 deactivate() {
   export PATH=$OLDPATH
